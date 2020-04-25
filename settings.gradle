@@ -1,0 +1,10 @@
+rootProject.name = 'spring-cloud-admin-poc'
+
+include ':moduleA'
+project(':moduleA').projectDir = new File('moduleA')
+
+include ':moduleB'
+project(':moduleB').projectDir = new File('moduleB')
+
+include ':adminServer'
+project(':adminServer').projectDir = new File('adminServer')
